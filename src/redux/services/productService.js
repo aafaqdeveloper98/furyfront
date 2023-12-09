@@ -1,6 +1,10 @@
 import axios from "axios"
 
-export const BACKEND_URL = 'http://localhost:5000'
+// export const BACKEND_URL = 'http://localhost:5000'
+
+export const BACKEND_URL = 'https://furry.cyclic.app/'
+
+
 
 const API_URL = `${BACKEND_URL}/api/products/`
 

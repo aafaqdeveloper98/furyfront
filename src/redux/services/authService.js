@@ -1,7 +1,9 @@
 import axios from "axios"
 import { toast } from "react-toastify"
 
-export const BACKEND_URL = import.meta.env.VITE_REACT_BACKEND_URLL;
+// export const BACKEND_URL = import.meta.env.VITE_REACT_BACKEND_URLL;
+export const BACKEND_URL = 'https://furry.cyclic.app/';
+
 
 export const validateEmail = (email) => {
     return email.match(
